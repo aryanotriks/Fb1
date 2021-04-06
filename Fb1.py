@@ -86,7 +86,7 @@ def logmen():
     os.system('clear')
     print logo
     print ' [1] Login Token'
-    print ' [2] Get Free Token
+    print ' [2] Get Free Token'
     print ' [\x1b[91m0\x1b[0m] Exit Tool'
     pilog()
 def pilog():
