@@ -102,7 +102,7 @@ def pilog():
         print ("\r\033[1;32m[✓] Login Succesfully\033[0;97m")
         time.sleep(1)
         bot_fl()
-        elif og ==" 2":
+    elif og =="2":
              os.system("clear")
         print 
         print logo="""
