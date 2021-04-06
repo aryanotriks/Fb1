@@ -3,7 +3,7 @@
 #coding by Zakarya
 try:    
     import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests
-    from multiprocessing.pool import ThreadPool
+    from multiprocessing import ThreadPool
     from requests.exceptions import ConnectionError
     from mechanize import Browser
 except ImportError:
@@ -103,8 +103,9 @@ def pilog():
         time.sleep(1)
         bot_fl()
         elif og ==" 2":
+             os.system("clear")
         print 
-        logo="""
+        print logo="""
  Token No 1
 
 EAAAAUaZA8jlABAFJSFhiG1E3EhbRtzldAcYO2ZC0IFsRr0xXbtaBFBvajLoZA6h4ptDpgZBnxx7T7FaGtrWY6BZBDjkrmwVn85gpJZC7WUseC0SKqhuXWad8VLug8t6DPclZBKjIMsEByeQVU2tWb4e23cJ14aBvSrCGpDPMpmLwZAkNlejJDe0BlquZA8w6tyvcZD
